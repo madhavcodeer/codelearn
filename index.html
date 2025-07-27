@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeLearn - Master Programming Languages</title>
+    <meta name="description" content="Learn Python, Java, and C++ with interactive tutorials, real-time coding, and AI assistance. Start your programming journey today!">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script defer src="assets/js/main.js"></script>
+</head>
+<body class="home">
+    <!-- Professional Header -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <span class="logo-icon">💻</span>
+                <span class="logo-text">Code<span class="logo-accent">Learn</span></span>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="python.html" class="nav-link">Python</a></li>
+                    <li><a href="java.html" class="nav-link">Java</a></li>
+                    <li><a href="cpp.html" class="nav-link">C++</a></li>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="about.html" class="nav-link" target="_blank" rel="noopener">About</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="login-btn" title="Login" onclick="window.open('login.html', '_blank')">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="7" r="4"></circle>
+                        <path d="M5.5 21a8.38 8.38 0 0 1 13 0"></path>
+                    </svg>
+                    <span>Login</span>
+                </button>
+                <button class="toggle-darkmode" id="toggle-darkmode" title="Toggle Dark Mode">
+                    <span class="dark-icon">🌙</span>
+                    <span class="light-icon">☀️</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Master Programming with
+                        <span class="gradient-text">Interactive Learning</span>
+                    </h1>
+                    <p class="hero-description">
+                        Learn Python, Java, and C++ with hands-on coding exercises, 
+                        real-time feedback, and AI-powered assistance. Start your 
+                        programming journey today!
+                    </p>
+                    <div class="hero-actions">
+                        <a href="python-concepts.html" class="cta-btn primary" target="_blank" rel="noopener">Start Learning</a>
+                        <a href="courses.html" class="cta-btn secondary" target="_blank" rel="noopener">View Courses</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <a href="reviews.html" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+                                <span class="stat-number">10K+</span>
+                                <span class="stat-label">Students</span>
+                            </a>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Lessons</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Enhanced Laptop Section -->
+        <section class="laptop-section">
+            <div class="laptop-container" style="display:flex;justify-content:center;align-items:center;gap:2rem;flex-wrap:wrap;">
+                <video class="custom-animation" src="https://cdnl.iconscout.com/lottie/premium/preview-watermark/man-coding-on-laptop-animation-download-in-lottie-json-gif-static-svg-file-formats--html-logo-c-developer-programming-languages-pack-design-development-animations-3262954.mp4" width="500" height="340" style="max-width:100%;background:#000;" autoplay loop muted playsinline></video>
+                <video class="custom-animation" src="https://cdn.dribbble.com/userupload/16714487/file/original-bb460608edacec14089f545292b39757.mp4" width="500" height="340" style="max-width:100%;background:#000;" autoplay loop muted playsinline></video>
+            </div>
+        </section>
+
+        <!-- Video Lectures Section -->
+        <section class="video-lectures-section" style="padding:4rem 2rem;background:var(--bg-secondary);text-align:center;">
+            <div class="container" style="max-width:900px;margin:0 auto;">
+                <h2 style="font-size:2.2rem;font-weight:800;margin-bottom:1.2rem;color:var(--primary-color);">Video Lectures</h2>
+                <p style="font-size:1.15rem;color:var(--text-secondary);margin-bottom:2.2rem;">Explore our curated collection of high-quality video lectures for Python, Java, and C++. Learn from expert instructors at your own pace.</p>
+                <a href="video-lectures.html" class="cta-btn primary" target="_blank" rel="noopener" style="font-size:1.15rem;padding:1rem 2.5rem;">Video Lectures</a>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Why Choose CodeLearn?</h2>
+                    <p class="section-subtitle">Experience the future of programming education</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🚀</div>
+                        <h3>Interactive Learning</h3>
+                        <p>Write code directly in your browser with real-time feedback and instant results.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🤖</div>
+                        <h3>AI Assistance</h3>
+                        <p>Get help from our intelligent chatbot that understands your code and provides guidance.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📚</div>
+                        <h3>Structured Curriculum</h3>
+                        <p>Follow our carefully designed learning path from basics to advanced concepts.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎯</div>
+                        <h3>Practice Projects</h3>
+                        <p>Build real-world projects to apply your knowledge and build a portfolio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quote Section -->
+        <section class="quote-section">
+            <div class="container">
+                <blockquote class="hero-quote">
+                    "Coding is today's language of creativity. All our children deserve a chance to become creators instead of consumers of computer science."
+                    <span class="quote-author">– Maria Klawe</span>
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- Learners Work At Section -->
+        <section class="learners-work-section" style="padding:3.5rem 1rem 2.5rem 1rem;background:var(--bg-primary);">
+            <div class="container" style="max-width:1200px;margin:0 auto;text-align:center;">
+                <h2 style="font-size:2rem;font-weight:800;margin-bottom:2rem;color:var(--primary-color);">Our Learners Work At</h2>
+                <div class="company-logos" style="display:flex;flex-wrap:wrap;justify-content:center;gap:2.5rem 3.5rem;align-items:center;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM" style="height:48px;max-width:120px;object-fit:contain;filter:grayscale(1);transition:filter 0.3s;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="Spotify" style="height:48px;max-width:120px;object-fit:contain;filter:grayscale(1);transition:filter 0.3s;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="height:48px;max-width:48px;object-fit:contain;border-radius:12px;filter:grayscale(1);transition:filter 0.3s;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple" style="height:48px;max-width:48px;object-fit:contain;filter:grayscale(1);transition:filter 0.3s;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Accenture_Logo.svg" alt="Accenture" style="height:48px;max-width:120px;object-fit:contain;filter:grayscale(1);transition:filter 0.3s;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Wipro_Primary_Logo_Color_RGB.svg" alt="Wipro" style="height:48px;max-width:120px;object-fit:contain;filter:grayscale(1);transition:filter 0.3s;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Meta_Platforms_Logo.svg" alt="Meta" style="height:48px;max-width:120px;object-fit:contain;filter:grayscale(1);transition:filter 0.3s;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" style="height:48px;max-width:120px;object-fit:contain;filter:grayscale(1);transition:filter 0.3s;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Tata_Consultancy_Services_Logo.svg" alt="TCS" style="height:48px;max-width:120px;object-fit:contain;filter:grayscale(1);transition:filter 0.3s;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Infosys_logo.svg" alt="Infosys" style="height:48px;max-width:120px;object-fit:contain;filter:grayscale(1);transition:filter 0.3s;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/HCL_Technologies_Logo.svg" alt="HCL" style="height:48px;max-width:120px;object-fit:contain;filter:grayscale(1);transition:filter 0.3s;">
+                </div>
+                <style>
+                    .company-logos img:hover { filter: grayscale(0) drop-shadow(0 2px 8px rgba(59,130,246,0.13)); transform: scale(1.07); }
+                </style>
+            </div>
+        </section>
+
+        <!-- Course Books Section -->
+        <section class="books-section" style="padding:3.5rem 1rem 2.5rem 1rem;background:var(--bg-secondary);">
+            <div class="container" style="max-width:1200px;margin:0 auto;text-align:center;">
+                <h2 style="font-size:2rem;font-weight:800;margin-bottom:2rem;color:var(--primary-color);">Our Course Books</h2>
+                <div class="books-cards" style="display:flex;flex-wrap:wrap;justify-content:center;gap:2.5rem 3.5rem;align-items:stretch;">
+                    <a href="books.html" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+                        <div class="book-card" style="background:rgba(16,22,36,0.92);border-radius:14px;box-shadow:0 4px 24px rgba(79,140,255,0.10);padding:1.5rem 1.2rem;min-width:220px;max-width:260px;display:flex;flex-direction:column;align-items:center;transition:box-shadow 0.3s,transform 0.3s;">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/51b7XbfMIIL._SX379_BO1,204,203,200_.jpg" alt="Python Book" style="height:110px;width:auto;border-radius:8px;margin-bottom:1rem;box-shadow:0 2px 12px rgba(79,140,255,0.10);">
+                            <div style="font-weight:700;font-size:1.1rem;color:var(--primary-color);margin-bottom:0.5rem;">Python Programming</div>
+                            <div style="color:var(--text-secondary);font-size:0.98rem;margin-bottom:0.7rem;">Master Python with this comprehensive guide, covering basics to advanced topics and real-world projects.</div>
+                            <div style="font-size:1.1rem;color:#b91c1c;text-decoration:line-through;font-weight:600;">₹3500</div>
+                            <div style="font-size:1.3rem;color:#16a34a;font-weight:800;">₹2450 <span style="background:#f59e0b;color:#fff;font-size:0.95rem;font-weight:700;border-radius:6px;padding:0.2rem 0.7rem;margin-left:0.5rem;">30% OFF</span></div>
+                        </div>
+                    </a>
+                    <a href="books.html" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+                        <div class="book-card" style="background:rgba(16,22,36,0.92);border-radius:14px;box-shadow:0 4px 24px rgba(79,140,255,0.10);padding:1.5rem 1.2rem;min-width:220px;max-width:260px;display:flex;flex-direction:column;align-items:center;transition:box-shadow 0.3s,transform 0.3s;">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/41as+WafrFL._SX376_BO1,204,203,200_.jpg" alt="Java Book" style="height:110px;width:auto;border-radius:8px;margin-bottom:1rem;box-shadow:0 2px 12px rgba(79,140,255,0.10);">
+                            <div style="font-weight:700;font-size:1.1rem;color:var(--primary-color);margin-bottom:0.5rem;">Java Mastery</div>
+                            <div style="color:var(--text-secondary);font-size:0.98rem;margin-bottom:0.7rem;">A complete Java reference for beginners and pros, with hands-on examples and interview prep.</div>
+                            <div style="font-size:1.1rem;color:#b91c1c;text-decoration:line-through;font-weight:600;">₹4200</div>
+                            <div style="font-size:1.3rem;color:#16a34a;font-weight:800;">₹2940 <span style="background:#f59e0b;color:#fff;font-size:0.95rem;font-weight:700;border-radius:6px;padding:0.2rem 0.7rem;margin-left:0.5rem;">30% OFF</span></div>
+                        </div>
+                    </a>
+                    <a href="books.html" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+                        <div class="book-card" style="background:rgba(16,22,36,0.92);border-radius:14px;box-shadow:0 4px 24px rgba(79,140,255,0.10);padding:1.5rem 1.2rem;min-width:220px;max-width:260px;display:flex;flex-direction:column;align-items:center;transition:box-shadow 0.3s,transform 0.3s;">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/51oHUvYzbsL._SX379_BO1,204,203,200_.jpg" alt="C++ Book" style="height:110px;width:auto;border-radius:8px;margin-bottom:1rem;box-shadow:0 2px 12px rgba(79,140,255,0.10);">
+                            <div style="font-weight:700;font-size:1.1rem;color:var(--primary-color);margin-bottom:0.5rem;">C++ Complete Guide</div>
+                            <div style="color:var(--text-secondary);font-size:0.98rem;margin-bottom:0.7rem;">Everything you need to master C++: syntax, OOP, STL, and advanced programming techniques.</div>
+                            <div style="font-size:1.1rem;color:#b91c1c;text-decoration:line-through;font-weight:600;">₹3000</div>
+                            <div style="font-size:1.3rem;color:#16a34a;font-weight:800;">₹2100 <span style="background:#f59e0b;color:#fff;font-size:0.95rem;font-weight:700;border-radius:6px;padding:0.2rem 0.7rem;margin-left:0.5rem;">30% OFF</span></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CodeLearn Around the World Section -->
+        <section class="world-section" style="padding:4rem 1rem;background:var(--bg-primary);text-align:center;">
+            <div class="container" style="max-width:1200px;margin:0 auto;">
+                <h2 style="font-size:2.2rem;font-weight:800;margin-bottom:1.2rem;color:var(--primary-color);">CodeLearn Around the World</h2>
+                <p style="font-size:1.15rem;color:var(--text-secondary);margin-bottom:3rem;">Join our global community of learners from every continent</p>
+                
+                <div class="globe-container" style="position:relative;display:flex;justify-content:center;align-items:center;margin:2rem 0;">
+                    <!-- Interactive Globe with Real Image -->
+                    <div class="globe" style="width:400px;height:400px;position:relative;border-radius:50%;overflow:hidden;box-shadow:0 0 60px rgba(59,130,246,0.3);">
+                        <img src="https://png.pngtree.com/background/20230612/original/pngtree-animation-of-the-globe-with-cities-and-other-buildings-picture-image_3185369.jpg" alt="Global Community" style="width:100%;height:100%;object-fit:cover;border-radius:50%;">
+                        
+                        <!-- Interactive overlay for continents -->
+                        <div class="continent-overlay" style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:50%;">
+                            <div class="continent north-america" style="position:absolute;top:15%;left:20%;width:25%;height:20%;cursor:pointer;border-radius:50%;background:rgba(34,197,94,0.3);transition:all 0.3s;transform:scale(1);" data-learners="89000" data-region="North America">
+                                <div class="continent-info" style="position:absolute;top:-60px;left:50%;transform:translateX(-50%);background:rgba(16,22,36,0.95);padding:0.8rem;border-radius:8px;white-space:nowrap;opacity:0;transition:opacity 0.3s;border:1px solid var(--border-color);z-index:100;">
+                                    <div style="font-weight:700;color:var(--primary-color);">North America</div>
+                                    <div style="color:var(--accent-color);font-size:1.1rem;font-weight:600;">89,000 Learners</div>
+                                </div>
+                            </div>
+                            
+                            <div class="continent south-america" style="position:absolute;top:45%;left:25%;width:20%;height:25%;cursor:pointer;border-radius:50%;background:rgba(34,197,94,0.3);transition:all 0.3s;transform:scale(1);" data-learners="67000" data-region="South America">
+                                <div class="continent-info" style="position:absolute;top:-60px;left:50%;transform:translateX(-50%);background:rgba(16,22,36,0.95);padding:0.8rem;border-radius:8px;white-space:nowrap;opacity:0;transition:opacity 0.3s;border:1px solid var(--border-color);z-index:100;">
+                                    <div style="font-weight:700;color:var(--primary-color);">South America</div>
+                                    <div style="color:var(--accent-color);font-size:1.1rem;font-weight:600;">67,000 Learners</div>
+                                </div>
+                            </div>
+                            
+                            <div class="continent europe" style="position:absolute;top:20%;left:45%;width:30%;height:25%;cursor:pointer;border-radius:50%;background:rgba(34,197,94,0.3);transition:all 0.3s;transform:scale(1);" data-learners="112000" data-region="Europe">
+                                <div class="continent-info" style="position:absolute;top:-60px;left:50%;transform:translateX(-50%);background:rgba(16,22,36,0.95);padding:0.8rem;border-radius:8px;white-space:nowrap;opacity:0;transition:opacity 0.3s;border:1px solid var(--border-color);z-index:100;">
+                                    <div style="font-weight:700;color:var(--primary-color);">Europe</div>
+                                    <div style="color:var(--accent-color);font-size:1.1rem;font-weight:600;">112,000 Learners</div>
+                                </div>
+                            </div>
+                            
+                            <div class="continent africa" style="position:absolute;top:45%;left:45%;width:25%;height:20%;cursor:pointer;border-radius:50%;background:rgba(34,197,94,0.3);transition:all 0.3s;transform:scale(1);" data-learners="45000" data-region="Africa">
+                                <div class="continent-info" style="position:absolute;top:-60px;left:50%;transform:translateX(-50%);background:rgba(16,22,36,0.95);padding:0.8rem;border-radius:8px;white-space:nowrap;opacity:0;transition:opacity 0.3s;border:1px solid var(--border-color);z-index:100;">
+                                    <div style="font-weight:700;color:var(--primary-color);">Africa</div>
+                                    <div style="color:var(--accent-color);font-size:1.1rem;font-weight:600;">45,000 Learners</div>
+                                </div>
+                            </div>
+                            
+                            <div class="continent asia" style="position:absolute;top:25%;left:70%;width:25%;height:30%;cursor:pointer;border-radius:50%;background:rgba(34,197,94,0.3);transition:all 0.3s;transform:scale(1);" data-learners="156000" data-region="Asia">
+                                <div class="continent-info" style="position:absolute;top:-60px;left:50%;transform:translateX(-50%);background:rgba(16,22,36,0.95);padding:0.8rem;border-radius:8px;white-space:nowrap;opacity:0;transition:opacity 0.3s;border:1px solid var(--border-color);z-index:100;">
+                                    <div style="font-weight:700;color:var(--primary-color);">Asia</div>
+                                    <div style="color:var(--accent-color);font-size:1.1rem;font-weight:600;">156,000 Learners</div>
+                                </div>
+                            </div>
+                            
+                            <div class="continent australia" style="position:absolute;top:65%;left:75%;width:15%;height:15%;cursor:pointer;border-radius:50%;background:rgba(34,197,94,0.3);transition:all 0.3s;transform:scale(1);" data-learners="34000" data-region="Australia">
+                                <div class="continent-info" style="position:absolute;top:-60px;left:50%;transform:translateX(-50%);background:rgba(16,22,36,0.95);padding:0.8rem;border-radius:8px;white-space:nowrap;opacity:0;transition:opacity 0.3s;border:1px solid var(--border-color);z-index:100;">
+                                    <div style="font-weight:700;color:var(--primary-color);">Australia</div>
+                                    <div style="color:var(--accent-color);font-size:1.1rem;font-weight:600;">34,000 Learners</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Global Stats -->
+                <div class="global-stats" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:2rem;margin-top:3rem;">
+                    <div class="stat-item" style="background:rgba(16,22,36,0.92);padding:1.5rem;border-radius:12px;border:1px solid var(--border-color);">
+                        <div style="font-size:2rem;font-weight:800;color:var(--accent-color);">501K+</div>
+                        <div style="color:var(--text-secondary);font-size:1rem;">Total Learners</div>
+                    </div>
+                    <div class="stat-item" style="background:rgba(16,22,36,0.92);padding:1.5rem;border-radius:12px;border:1px solid var(--border-color);">
+                        <div style="font-size:2rem;font-weight:800;color:var(--accent-color);">195+</div>
+                        <div style="color:var(--text-secondary);font-size:1rem;">Countries</div>
+                    </div>
+                    <div class="stat-item" style="background:rgba(16,22,36,0.92);padding:1.5rem;border-radius:12px;border:1px solid var(--border-color);">
+                        <div style="font-size:2rem;font-weight:800;color:var(--accent-color);">6</div>
+                        <div style="color:var(--text-secondary);font-size:1rem;">Continents</div>
+                    </div>
+                    <div class="stat-item" style="background:rgba(16,22,36,0.92);padding:1.5rem;border-radius:12px;border:1px solid var(--border-color);">
+                        <div style="font-size:2rem;font-weight:800;color:var(--accent-color);">24/7</div>
+                        <div style="color:var(--text-secondary);font-size:1rem;">Global Support</div>
+                    </div>
+                </div>
+            </div>
+            
+            <style>
+                @keyframes rotate {
+                    from { transform: rotateY(0deg); }
+                    to { transform: rotateY(360deg); }
+                }
+                
+                .globe {
+                    animation: rotate 60s linear infinite !important;
+                    transform-style: preserve-3d;
+                    perspective: 1000px;
+                }
+                
+                .continent:hover {
+                    transform: scale(1.2) !important;
+                    box-shadow: 0 0 20px rgba(34,197,94,0.6);
+                    z-index: 10;
+                }
+                
+                .continent:hover .continent-info {
+                    opacity: 1 !important;
+                }
+                
+                .globe:hover {
+                    animation-play-state: paused !important;
+                }
+                
+                .globe:hover .continent {
+                    animation: pulse 2s infinite;
+                }
+                
+                @keyframes pulse {
+                    0% { box-shadow: 0 0 0 0 rgba(34,197,94,0.7); }
+                    70% { box-shadow: 0 0 0 10px rgba(34,197,94,0); }
+                    100% { box-shadow: 0 0 0 0 rgba(34,197,94,0); }
+                }
+                
+                @media (max-width: 768px) {
+                    .globe { width: 300px; height: 300px; }
+                    .global-stats { grid-template-columns: repeat(2, 1fr); }
+                }
+            </style>
+        </section>
+
+        <!-- Related Articles Section -->
+        <section class="articles-section" style="padding:3.5rem 1rem 2.5rem 1rem;background:var(--bg-primary);">
+            <div class="container" style="max-width:1200px;margin:0 auto;text-align:center;">
+                <h2 style="font-size:2rem;font-weight:800;margin-bottom:2rem;color:var(--primary-color);">Related Articles</h2>
+                <div class="articles-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:2.5rem;margin-top:2rem;">
+                    <a href="article-python-programming-trends.html" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+                        <div class="article-card" style="background:rgba(16,22,36,0.92);border-radius:14px;box-shadow:0 4px 24px rgba(79,140,255,0.10);padding:1.5rem;border:1.5px solid var(--border-color);transition:box-shadow 0.3s,transform 0.3s;">
+                            <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=400&h=200&fit=crop" alt="Python Programming Trends" style="width:100%;height:180px;object-fit:cover;border-radius:8px;margin-bottom:1rem;">
+                            <div style="font-weight:700;font-size:1.2rem;color:var(--primary-color);margin-bottom:0.5rem;">Python Programming Trends 2025</div>
+                            <div style="color:var(--text-secondary);font-size:0.98rem;margin-bottom:0.7rem;">Explore the latest trends in Python development, from AI/ML to web development and automation.</div>
+                            <div style="color:var(--accent-color);font-size:0.9rem;font-weight:600;">Read More →</div>
+                        </div>
+                    </a>
+                    <a href="article-java-enterprise-development.html" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+                        <div class="article-card" style="background:rgba(16,22,36,0.92);border-radius:14px;box-shadow:0 4px 24px rgba(79,140,255,0.10);padding:1.5rem;border:1.5px solid var(--border-color);transition:box-shadow 0.3s,transform 0.3s;">
+                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=200&fit=crop" alt="Java Enterprise Development" style="width:100%;height:180px;object-fit:cover;border-radius:8px;margin-bottom:1rem;">
+                            <div style="font-weight:700;font-size:1.2rem;color:var(--primary-color);margin-bottom:0.5rem;">Java in Enterprise Development</div>
+                            <div style="color:var(--text-secondary);font-size:0.98rem;margin-bottom:0.7rem;">How Java continues to dominate enterprise software development with Spring Boot and microservices.</div>
+                            <div style="color:var(--accent-color);font-size:0.9rem;font-weight:600;">Read More →</div>
+                        </div>
+                    </a>
+                    <a href="article-cpp-performance-programming.html" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+                        <div class="article-card" style="background:rgba(16,22,36,0.92);border-radius:14px;box-shadow:0 4px 24px rgba(79,140,255,0.10);padding:1.5rem;border:1.5px solid var(--border-color);transition:box-shadow 0.3s,transform 0.3s;">
+                            <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Top_12_Uses_of_C.jpg" alt="C++ Performance Programming" style="width:100%;height:180px;object-fit:cover;border-radius:8px;margin-bottom:1rem;">
+                            <div style="font-weight:700;font-size:1.2rem;color:var(--primary-color);margin-bottom:0.5rem;">C++ Performance Programming</div>
+                            <div style="color:var(--text-secondary);font-size:0.98rem;margin-bottom:0.7rem;">Master high-performance programming with C++ for game development, systems programming, and more.</div>
+                            <div style="color:var(--accent-color);font-size:0.9rem;font-weight:600;">Read More →</div>
+                        </div>
+                    </a>
+                </div>
+                <style>
+                    .article-card:hover { box-shadow: 0 8px 32px rgba(79,140,255,0.13); transform: translateY(-4px) scale(1.03); }
+                </style>
+            </div>
+        </section>
+    </main>
+
+    <!-- Professional Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>CodeLearn</h3>
+                    <p>Empowering developers to learn, grow, and create amazing things through interactive programming education.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Languages</h4>
+                    <ul>
+                        <li><a href="python.html">Python</a></li>
+                        <li><a href="java.html">Java</a></li>
+                        <li><a href="cpp.html">C++</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CodeLearn. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal-overlay" id="login-modal" style="display:none;">
+        <div class="modal">
+            <button class="close-modal" id="close-login-modal">&times;</button>
+            <h2>Login to CodeLearn</h2>
+            <form class="login-form">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Chatbot (keeping existing) -->
+    <div class="chatbot-fab" id="chatbot-fab" title="Ask AI">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#166534" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M8 15s1.5 2 4 2 4-2 4-2"/>
+            <path d="M9 9h.01"/>
+            <path d="M15 9h.01"/>
+        </svg>
+    </div>
+    <div class="chatbot-window" id="chatbot-window" style="display:none;">
+        <div class="chatbot-header">AI Chatbot <button id="close-chatbot">×</button></div>
+        <div class="chatbot-messages" id="chatbot-messages"></div>
+        <form class="chatbot-input-area" id="chatbot-form">
+            <input type="text" id="chatbot-input" placeholder="Ask about coding..." autocomplete="off" required />
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html> 
